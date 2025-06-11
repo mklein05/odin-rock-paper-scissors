@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 100px;
+    margin: 0;
+}
+
+.icon-container{
+    border: 5px solid black;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.scores-container{
+    font-size: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+button{
+    font-size: 100px;
+    background-color: white;
+    border: none;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
