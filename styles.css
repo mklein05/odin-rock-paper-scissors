@@ -8,38 +8,91 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #F5E9E2;
 }
 
 h1{
-    font-size: 100px;
+    font-size: 80px;
     margin: 0;
 }
 
 .icon-container{
-    border: 5px solid black;
+    border: 5px solid #DC851F;
     border-radius: 30px;
     padding: 30px;
     margin: 30px;
+    align-content: center;
+    justify-content: center;
+    background-color: #F5E9E2;
 }
 
 .scores-container{
-    font-size: 100px;
+    font-size: 80px;
     display: flex;
     justify-content: space-between;
     padding-top: 0px;
     margin-top: 0px;
     padding-left: 22px;
     padding-right: 22px;
+    color: #41463D;
 }
 
 button{
     font-size: 100px;
-    background-color: white;
-    border: none;
+    background-color: #F5E9E2;
+    border: 2px solid #DC851F;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: #2CDA9D;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #2CDA9D;
+}
+
+.computerButton{
+    background-color: #41463D;
+}
+
+
+.computerButton:hover{
+    background-color: #41463D;
+    cursor: default;
 }
 
 .button-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    gap: 50px;
+    gap: 10px;
 }
+
+
+.game-container{
+    display: flex;
+    margin: 20px;
+    align-content: center;
+    justify-content: centers;
+}
+
+
+.selected{
+    background-color: #2CDA9D;
+}
+
+
+.winner{
+    color: #2CDA9D;
+}
+
+
+.loser{
+    color:#D44D5C;
+}
+
+#DC851F
