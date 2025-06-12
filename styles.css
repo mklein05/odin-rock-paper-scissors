@@ -40,7 +40,7 @@ h1{
 button{
     font-size: 100px;
     background-color: #F5E9E2;
-    border: 2px solid #DC851F;
+    border: 3px solid #DC851F;
     padding-left: 6px;
     padding-right: 6px;
     border-radius: 30px;
@@ -95,4 +95,3 @@ button:active{
     color:#D44D5C;
 }
 
-#DC851F
